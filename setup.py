@@ -12,7 +12,7 @@ setup(
     description='The Python connector for Lavalink',
     url='https://github.com/initzx/magma',
     python_requires='>=3.6.6',
-    install_requires=["git+https://github.com/Rapptz/discord.py.git@rewrite#egg=discord.py"],
+    install_requires=["discord.py"],
     long_description=readme,
     classifiers=[
         'License :: OSI Approved :: MIT License',
