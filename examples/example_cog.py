@@ -2,9 +2,9 @@ from collections import deque
 
 from discord.ext import commands
 
-from ..core import AbstractPlayerEventAdapter
-from ..core import Lavalink
-from ..core import TrackEndEvent, TrackStuckEvent, TrackStartEvent, TrackExceptionEvent, TrackPauseEvent, TrackResumeEvent
+from ..magma import AbstractPlayerEventAdapter
+from ..magma import Lavalink
+from ..magma import TrackEndEvent, TrackStuckEvent, TrackStartEvent, TrackExceptionEvent, TrackPauseEvent, TrackResumeEvent
 
 
 class MusicPlayer(AbstractPlayerEventAdapter):
