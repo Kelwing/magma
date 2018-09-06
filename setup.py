@@ -7,11 +7,11 @@ setup(
     name='magma',
     version='v3',
     author='init0',
-    packages=['magma',],
+    packages=['magma', ],
     license='GPLv3',
     description='The Python connector for Lavalink',
     url='https://github.com/initzx/magma',
-    python_requires='>=3.6.6',
+    python_requires='>=3.6',
     install_requires=["discord.py"],
     long_description=readme,
     classifiers=[
